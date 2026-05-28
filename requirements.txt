@@ -1,0 +1,10 @@
+# 高德地图POI采集工具 依赖清单
+# 安装方式：pip install -r requirements.txt
+
+pandas>=1.0
+openpyxl>=3.0
+requests>=2.20
+h3>=4.0
+numpy>=1.19
+shapely>=2.0
+pyinstaller>=6.0

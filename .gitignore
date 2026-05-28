@@ -1,0 +1,29 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller 打包产物
+dist/
+build/
+*.spec
+
+# 第三方依赖（手动安装，不上传）
+_deps/
+
+# 真实的 API 密钥文件（本地使用，不上传）
+# config.json 模板已包含在仓库中，用户只需填入自己的 Key
+
+# 采集产生的结果文件
+*.xlsx
+*.csv
+
+# 断点续传缓存
+checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# 测试缓存
+.pytest_cache/
